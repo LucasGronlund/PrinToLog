@@ -3,7 +3,7 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 import os
 
-log_dir = "logs"
+log_dir = ".logs"
 os.makedirs(os.path.abspath(log_dir), exist_ok=True)
 
 
