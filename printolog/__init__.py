@@ -1,1 +1,1 @@
-from .decorator import printolog
+from printolog.decorator import printolog
